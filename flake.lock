@@ -1,0 +1,72 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1728492678,
+        "narHash": "sha256-9UTxR8eukdg+XZeHgxW5hQA9fIKHsKCdOIUycTryeVw=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "5633bcff0c6162b9e4b5f1264264611e950c8ec7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "swift-bin-aarch64": "swift-bin-aarch64",
+        "swift-bin-x86_64": "swift-bin-x86_64",
+        "thenightmancodeth": "thenightmancodeth"
+      }
+    },
+    "swift-bin-aarch64": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1728844440,
+        "narHash": "sha256-brbWGg7rtVWsyxFWj/3BFkrR9+PMpgl5jAfizX+NX8c=",
+        "type": "tarball",
+        "url": "https://download.swift.org/swift-6.0.1-release/debian12-aarch64/swift-6.0.1-RELEASE/swift-6.0.1-RELEASE-debian12-aarch64.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://download.swift.org/swift-6.0.1-release/debian12-aarch64/swift-6.0.1-RELEASE/swift-6.0.1-RELEASE-debian12-aarch64.tar.gz"
+      }
+    },
+    "swift-bin-x86_64": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1728844468,
+        "narHash": "sha256-ca6dzlmfcMHwq8O1cSAObXmCJvPy0k6NXGvmrR6YqRM=",
+        "type": "tarball",
+        "url": "https://download.swift.org/swift-6.0.1-release/debian12/swift-6.0.1-RELEASE/swift-6.0.1-RELEASE-debian12.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://download.swift.org/swift-6.0.1-release/debian12/swift-6.0.1-RELEASE/swift-6.0.1-RELEASE-debian12.tar.gz"
+      }
+    },
+    "thenightmancodeth": {
+      "locked": {
+        "lastModified": 1728850194,
+        "narHash": "sha256-hPC5GIS9TmPOxUQ2h6U9D0f8Mqq+TAZQpujiGjfUYNw=",
+        "owner": "TheNightmanCodeth",
+        "repo": "nixpkgs",
+        "rev": "3b223b9d6e713fe24154752588de0836b5df4850",
+        "type": "github"
+      },
+      "original": {
+        "owner": "TheNightmanCodeth",
+        "ref": "swift-bin",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
